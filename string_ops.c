@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "mystdlib.h"
+#include "mystrlib.h"
 
 int main(void) {
-	int str = "dhanraju";
-	print("Lenght of string : %d\n", mystrlen(str));
+	char str[] = "dhanraju";
+	printf("Lenght of string : %d\n", mystrlen(str));
 	return 0;
 }
