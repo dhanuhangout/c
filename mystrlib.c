@@ -1,5 +1,5 @@
 #include <string.h>
-#include "mystdlib.h"
+#include "mystrlib.h"
 
 int mystrlen(char *str) {
 	/* This function returns length of string. */

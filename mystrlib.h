@@ -1,5 +1,5 @@
-#ifndef __MYSTRLIB_H
-#define __MYSTRLIB_H
+#ifndef MYSTRLIB_H
+#define MYSTRLIB_H
 
 int mystrlen(char *);
 void mystrcpy(char *, char *);

@@ -14,3 +14,6 @@ string_ops.o: string_ops.c
 
 mystrlib.o: mystrlib.c
 	$(CC) -I$(INCLUDE) $(CFLAGS) -c mystrlib.c
+
+clean:
+	$(RM) *.o *~ string_ops
